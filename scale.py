@@ -9,8 +9,6 @@ class Scales(HX711):
     Most of the fuctions were taken from bogde's Arduino HX711 driver
     (https://github.com/bogde/HX711)
     and rewritten to micropython
-    
-    Made by Matej101
     """
     
     def __init__(self, d_out, pd_sck, channel=HX711.CHANNEL_A_128):
